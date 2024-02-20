@@ -12,7 +12,7 @@
 - [Models and Result](#Models)
 - [Data Storage/Access Information](#DataStorage)
 - [License](#License)
-- [Self Reflection of Metadata](#SelfReflectionofMetadata)
+- [Self Reflection of Creating Metadata](#SelfReflectionofMetadata)
 
 -------------
 ## 1️⃣ Project Details <a name="ProjectDetails"></a>
@@ -205,7 +205,7 @@ Copyrighted by Original Authors
 *Note: It's important to note that without explicit licensing terms, the dataset may not be freely available for use, modification, or distribution, and permission from the original authors may be required.*
 
 -------------
-## 1️⃣1️⃣ Self Reflection of Metadata <a name="SelfReflectionofMetadata"></a>
+## Self Reflection of Creating Metadata <a name="SelfReflectionofMetadata"></a>
 Accoriding to the [six types of Metadata](https://atlan.com/what-is-metadata/#examples-of-metadata) that Dr. Yasemin Gulbahar shared in class, my project metadata encompasses technical details, governance information with Clarence Zhao credited as the dataset creator, operational aspects detailing data flow from collection to model deployment, and quality metrics for model evaluation. Collaboration is implied through the mention of group members and a professor. Additionally, example usage of code snippets suggests practical applications for the dataset and models. This comprehensive approach provides viewers/users with a clear understanding of the project's scope, context, and potential applications.
 
 
