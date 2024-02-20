@@ -1,31 +1,32 @@
 # Recognition of Hanwritten Math Digits, Operators, and Simple Symbols Project ✍️
-#### *HUDK4054001 Individual Assignment 2*
+#### HUDK4054001 Individual Assignment 2
 -------------
 ## Table of Contents
 - [Project Details](#ProjectDetails)
 - [Project Objectives and Goals](#ProjectObjectivesandGoalss)
 - [About the Dataset](#AbouttheDataset)
-- [Methodology](#Methodology)
+- [Methodology of the Project](#Methodology)
 - [Data Preparation](#DataPreparation)
-- [Data Folder Label](#DataFolderLabel)
+- [Data Folder Labels](#DataFolderLabel)
 - [Import Necessary Libraries](#ImportNecessaryLibraries)
 - [Models](#Models)
 - [Data Storage/Access Information](#DataStorage)
 - [License](#License)
 - [Self Reflection of Metadata](#SelfReflectionofMetadata)
 
-
+-------------
 ## 1️⃣ Project Details <a name="ProjectDetails"></a>
 Our project, which focuses on recognizing students' handwritten digits, operators, and other basic mathematical symbols, serves as a foundational step towards developing more advanced models in the field of educational technology.
 
 - **Project Name:** Handwritten digit and symbol recognition  
-- **Course:** HUDK4050 (2023 Fall)
+- **Course:** HUDK4050 Core Methods Education Data Mining (2023 Fall)
 - **Data Manager:** Simeng Zhao
   - **ORCID ID:** 0009-0000-3577-6114
+  - **Email:** sz3163@tc.columbia.edu
 - **Group Members:** Summer Wu, Viola Tan, Theresa Zhao, Yanfei Chen, Bryan Wu, Carla Hounshell, Simeng Zhao 
-- **Professor:** JD Jayaraman
+- **Professor:** Dr. J.D Jayaraman (jj2797@tc.columbia.edu)
 - **Affiliation:** Teachers College, Columbia University
-
+-------------
 ## 2️⃣ Project Objectives and Goals <a name="ProjectObjectivesandGoalss"></a>
 - **Focus:** Recognizing students' handwritten digits, operators, and basic mathematical symbols  
 - **Purpose:** Foundation for future advancements in educational technology  
@@ -35,7 +36,7 @@ Our project, which focuses on recognizing students' handwritten digits, operator
 
 - **Name:** Handwritten math symbol and digit dataset
 - **Source:** [Kaggle Handwritten Math Symbol Dataset](https://www.kaggle.com/datasets/clarencezhao/handwritten-math-symbol-dataset/data)
-  - *Do I have to be a Kaggle member to download datasets from Kaggle? NO!* 😊
+  - *FYI: You don't need to sign up to download the dataset from Kaggle* 😊
 - **Creator:** Clarence Zhao (Owner)
 - **Year of Creation:** 2019
 - **Origin:** Zhao meticulously curated this dataset using a stylus on an iPad, involving the handwriting of three individuals.
@@ -49,7 +50,7 @@ Our project, which focuses on recognizing students' handwritten digits, operator
   - **validation set**: Folder containing the validation/evaluation set images.
 
 -------------
-## 4️⃣ Methodology <a name="Methodology"></a>
+## 4️⃣ Methodology of the Project <a name="Methodology"></a>
 - **Approach**: Employ machine learning to recognize handwritten digits, operators, and mathematical symbols.
 - **Data Source**: Utilize a dataset crafted by Clarence Zhao on Kaggle, containing over 8500 handwritten symbol images.
 - **Data Collection**: Zhao curated the dataset using a stylus on an iPad, involving three individuals to create images of digits and operators.
@@ -62,9 +63,9 @@ Our project, which focuses on recognizing students' handwritten digits, operator
 ## 5️⃣ Data Preparation <a name="DataPreparation"></a>
 - **Dataset Reduction and Preprocessing:**
 In the dataset, there are 20 folders for training and 18 folders for evaluation. During the data cleaning process, we removed the "sign" and "number" folders from the evaluation set. Additionally, we excluded folders labeled "original number", "original sign", "other number", and "other sign" from both the training and evaluation sets.
-
+-------------
 ## 6️⃣ Data Folder Labels <a name="DataFolderLabel"></a>
-| Folder Name        | Description                                           |
+| Folder Name        | Meaning                                           |
 |--------------------|-------------------------------------------------------|
 | eval               | Testing data                                          |
 | train              | Training data                                         |
@@ -142,8 +143,7 @@ y_train = to_categorical(train_label_encoded, 16)
 y_test = to_categorical(test_label_encoded, 16)
 ```
 
--------------
-                                         
+-------------                         
 
 ## 7️⃣ Import Necessary Libraries <a name="ImportNecessaryLibraries"></a>
 
@@ -211,7 +211,7 @@ The most challenging part of creating the README file was getting started, espec
 
 <br>
 
- 
+
 #### Congratulation you've made it through reading my ReadMe. Here is your free e-cookie to enjoy! 
 <img src="https://github.com/SimengZhao/Handwritten-Letter/assets/160539675/11ce83ca-9c4a-4542-9d79-38962448e6f4" width="400">
 
