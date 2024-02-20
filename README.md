@@ -1,4 +1,4 @@
-# Recognition of Hanwritten Math Digits, Operators, and Simple Symbols Project ✍️
+# Handwritten Math Symbol and Digit Recognitions Project ✍️
 #### HUDK4054001 Individual Assignment 2
 -------------
 ## Table of Contents
@@ -9,7 +9,7 @@
 - [Data Preparation](#DataPreparation)
 - [Data Folder Labels](#DataFolderLabel)
 - [Import Necessary Libraries](#ImportNecessaryLibraries)
-- [Models](#Models)
+- [Models and Result](#Models)
 - [Data Storage/Access Information](#DataStorage)
 - [License](#License)
 - [Self Reflection of Metadata](#SelfReflectionofMetadata)
@@ -18,7 +18,7 @@
 ## 1️⃣ Project Details <a name="ProjectDetails"></a>
 Our project, which focuses on recognizing students' handwritten digits, operators, and other basic mathematical symbols, serves as a foundational step towards developing more advanced models in the field of educational technology.
 
-- **Project Name:** Handwritten digit and symbol recognition  
+- **Project Name:** Handwritten Math Symbol and Digit Recognition  
 - **Course:** HUDK4050 Core Methods Education Data Mining (2023 Fall)
 - **Data Manager:** Simeng Zhao
   - **ORCID ID:** 0009-0000-3577-6114
@@ -169,7 +169,7 @@ from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, GlobalAv
 
 
 -------------
-## 8️⃣ Models <a name="Models"></a>
+## 8️⃣ Models and Result <a name="Models"></a>
 
 #### 1. Fully Connected Models:
 - Fully connected models process flattened input data through multiple layers where each neuron is connected to every neuron in the next layer, commonly used for image classification. 
@@ -177,6 +177,14 @@ from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D, GlobalAv
 
 #### 2. Convolutional Neural Networks (CNNs):
 - Convolutional Neural Networks (CNNs) are specialized models for processing grid-like data, such as images, preserving spatial structure using convolutional and pooling layers, and commonly used for image classification tasks.
+
+#### Comparision of Model Accuracy
+<img width="181" alt="截屏2024-02-19 下午11 14 08" src="https://github.com/SimengZhao/Handwritten-Letter/assets/160539675/fc72dd88-dbdd-4110-969a-4d356b0d0d4f">
+
+Our proprietary CNN model demonstrated impressive accuracy, reaching a notable high score of 0.9458, while our dense model achieved a respectable accuracy level of 0.7079. Both models performed admirably, as indicated by these results. However, it was observed that pretrained models, particularly VGG16, outperformed our models in terms of accuracy, achieving exceptionally high scores. This highlights the strength of pretrained networks. Our experience with transfer learning provided valuable insights into the complexities of CNN models. Given the intricate nature of these models, we carefully adjusted the number of epochs to optimize performance without prolonging execution times excessively. This approach enabled us to strike a balance between efficiency and effectiveness in our model training process.
+
+#### Conclusion and Reflection
+Our project aimed to explore the fusion of technology and machine learning in education. It's important to recognize the project's limitations: we focused on recognizing specific math symbols, whereas real-world educational scenarios often involve more complex symbols and text. Additionally, our understanding of machine learning was still developing, so our project mainly laid the groundwork for more advanced applications.
 
 -------------
 ## 9️⃣ Data Storage/Access Information <a name="DataStorage"></a>
@@ -188,6 +196,7 @@ Our project utilized Google Colab for its collaborative and cloud-based computin
 Throughout the project, we conducted presentations to showcase our progress and findings. As our work is primarily for a course assignment and involves shared collaboration, we haven't yet published our results in a formal academic or research setting. However, our focus has been on rigorously exploring and understanding the problem domain, experimenting with various methodologies, and synthesizing our findings into actionable insights.
 
 Using Colab as our project platform has facilitated efficient collaboration, enabling us to leverage its resources and tools for data analysis, model training, and result visualization. While our results have been presented internally, future plans may involve further refinement of our models and potentially disseminating our findings through publication or presentation in relevant forums.
+
 
 -------------
 ## 🔟 License <a name="License"></a>
