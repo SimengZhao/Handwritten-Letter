@@ -13,6 +13,7 @@
 - [Data Storage/Access Information](#DataStorage)
 - [License](#License)
 - [Self Reflection of Creating Metadata](#SelfReflectionofMetadata)
+- [Feedback From Course](#Feedback)
 
 -------------
 ## 1️⃣ Project Details <a name="ProjectDetails"></a>
@@ -217,6 +218,12 @@ I used GitHub to write the README-style metadata because I had never used it bef
 
 **🔹 What was the most challenging part of creating a ReadME file? How did you overcome these obstacles?**
 The most challenging part of creating the README file was getting started, especially since I had never used GitHub before. It took some time to familiarize myself with the platform and its features. Additionally, I encountered difficulties due to the lack of information provided in the original dataset. There was no contact information, license details, DOI, or a comprehensive description of the dataset folders, which made it challenging to provide thorough metadata. To overcome these obstacles, I relied on online resources, some tutorials, and the GitHub guidance.
+
+## *Feedback From Course* <a name="Feedback"></a>
+1. If more than one group member, then provide their roles
+2. the platform you are using
+3. Provide the file versions (and you should have it since we have cleaned it by deleting it from the original files)
+4. Provide visuals (your process line, your progress as a picture is preferred)
 
 <br>
 
